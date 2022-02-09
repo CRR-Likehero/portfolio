@@ -1,0 +1,618 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;700&display=swap');
+
+/* Global styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ebebd3;
+    height: auto;
+    font-family: 'archivo', sans-serif;
+}
+
+.container-wrapper {
+    margin: auto;
+    max-width: 1500px;
+}
+
+.marginh2 {
+    margin: 3em 0em 6em 0em
+}
+
+/* Navigation */
+
+.header {
+    height: 8vh;
+    background-color: #F7F7E7;
+    margin-bottom: 3em;
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+.header nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0em 2em 0em 2em;
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header nav ul li {
+    margin-left: 2em;
+    list-style: none;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Main content */
+
+.main-container {
+    width: 100%;
+    height: auto;
+}
+
+.welcome-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0em 10em 0em 10em;
+}
+
+.welcome-text {
+    width: 25%;
+    height: auto;
+}
+
+.welcome-text h2 {
+    text-transform: capitalize;
+}
+
+.welcome-text p {
+    margin: 1.2em 0em 1.2em 0em;
+}
+
+.btn {
+    width: 100%;
+    text-transform: uppercase;
+    border: none;
+    background-color: #f4d35e;
+    color: white;
+    height: 2em;
+    cursor: pointer;
+}
+
+.welcome-picture {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.picture {
+    width: 20em;
+    height: 20em;
+    border-radius: 15em;
+    z-index: 1;
+}
+
+.orange-circle {
+    position: absolute;
+    overflow: visible;
+}
+
+/* projects section */
+
+.project-container {
+    width: 100%;
+}   
+
+.project-box {
+    margin-bottom: 15em;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.project-box-text {
+    height: 13em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.project-box:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.project-box:nth-child(odd) .project-box-text {
+    padding: 0em 0em 0em 2em;
+}
+
+.project-box-image {
+    width: 50%;
+    height: 20em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+/* BENDIXBYG */
+
+#bendixbyg {
+    background-image: url(./img/bendixbyg.png);
+}
+
+.stripe-top-bendixbyg { 
+    width: 9em;
+    height: .7em;
+    background-color: #f4d35e;
+    position: absolute;
+    z-index: 1;
+    top: 17.5em;
+    left: 41em;
+    transform: rotate(129deg);
+}
+
+.stripe-bottom-bendixbyg {
+    width: 9em;
+    height: .7em;
+    background-color: #f4d35e;
+    position: absolute;
+    z-index: 1;
+    top: 18.5em;
+    left: 42em;
+    transform: rotate(129deg);
+}
+
+.language-box-bendixbyg {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 22em;
+    margin-top: 1em;
+}
+
+
+
+/* DRAG AND DROP */
+
+#draganddrop {
+    background-image: url(./img/draganddrop.png);    
+}
+
+.stripe-top-draganddrop { 
+    width: 9em;
+    height: .7em;
+    background-color: #f95738;
+    position: absolute;
+    z-index: 1;
+    top: 17.5em;
+    left: 41em;
+    transform: rotate(129deg);
+}
+
+.stripe-bottom-draganddrop {
+    width: 9em;
+    height: .7em;
+    background-color: #f95738;
+    position: absolute;
+    z-index: 1;
+    top: 18.5em;
+    left: 42em;
+    transform: rotate(129deg);
+}
+
+.language-box-draganddrop {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 33em;
+    margin-top: 1em;
+}
+
+
+/* PETSHOP */
+
+#petshop {
+    background-image: url(./img/petshop.png);
+}
+
+.stripe-top-petshop { 
+    width: 9em;
+    height: .7em;
+    background-color: #083d77;
+    position: absolute;
+    z-index: 1;
+    top: 17.5em;
+    left: 41em;
+    transform: rotate(129deg);
+}
+
+.stripe-bottom-petshop {
+    width: 9em;
+    height: .7em;
+    background-color: #083d77;
+    position: absolute;
+    z-index: 1;
+    top: 18.5em;
+    left: 42em;
+    transform: rotate(129deg);
+}
+
+.language-box-petshop {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 39em;
+    margin-top: 1em;
+}
+
+
+/* ESTSTAE IT*/
+
+#estateit {
+    background-image: url(./img/estateit.png);
+}
+
+.stripe-top-estateit { 
+    width: 9em;
+    height: .7em;
+    background-color: #ee964b;
+    position: absolute;
+    z-index: 1;
+    top: 17.5em;
+    left: 41em;
+    transform: rotate(129deg);
+}
+
+.stripe-bottom-estateit {
+    width: 9em;
+    height: .7em;
+    background-color: #ee964b;
+    position: absolute;
+    z-index: 1;
+    top: 18.5em;
+    left: 42em;
+    transform: rotate(129deg);
+}
+
+.language-box-estateit {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 22em;
+    margin-top: 1em;
+}
+
+/* HOMETODO */
+
+#hometodo {
+    background-image: url(./img/todolist.jpg);
+}
+
+.stripe-top-hometodo { 
+    width: 9em;
+    height: .7em;
+    background-color: #f4d35e;
+    position: absolute;
+    z-index: 1;
+    top: 17.5em;
+    left: 41em;
+    transform: rotate(129deg);
+}
+
+.stripe-bottom-hometodo {
+    width: 9em;
+    height: .7em;
+    background-color: #f4d35e;
+    position: absolute;
+    z-index: 1;
+    top: 18.5em;
+    left: 42em;
+    transform: rotate(129deg);
+}
+
+.language-box-hometodo {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 35em;
+    margin-top: 1em;
+}
+
+
+/* DANBOLIG SOCIAL MEDIA POSTER */
+
+#danboligsocialmedia {
+    background-image: url(./img/danbolig.png);   
+}
+
+.stripe-top-danboligsocialmedia { 
+    width: 9em;
+    height: .7em;
+    background-color: #f95738;
+    position: absolute;
+    z-index: 1;
+    top: 17.5em;
+    left: 41em;
+    transform: rotate(129deg);
+}
+
+.stripe-bottom-danboligsocialmedia {
+    width: 9em;
+    height: .7em;
+    background-color: #f95738;
+    position: absolute;
+    z-index: 1;
+    top: 18.5em;
+    left: 42em;
+    transform: rotate(129deg);
+}
+
+.language-box-danboligsocialmedia {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 22em;
+    margin-top: 1em;
+}
+
+/* ABOUT SECTION */
+
+.about-container {
+    width: 100%;
+    display: flex;
+    height: 68vh;
+    margin-top: 5em;
+}
+
+.info-skill-box {
+    margin-top: 5em;
+    width: 50%;
+}
+
+.who-box {
+    padding-right: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.who-box p {
+    margin-top: 1.5em;
+}
+
+.who-box button {
+    margin-top: 1.5em;
+}
+
+.skills-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+}
+
+.skills-box h3 {
+    margin-bottom: 1.5em;
+}
+
+.skills-box p {
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 1.5em;
+}
+
+.frontend {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 23em;
+    margin-top: 1em;
+}
+
+.backend {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 35em;
+    margin-top: 1em;
+}
+
+.design {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.quotes-box {
+    width: 50%;
+    position: relative;
+}
+
+.circle-blue {
+    background-color: #083d77;
+    color: #ffff;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 259px;
+    top: -16px;
+    font-size: 2.5em;
+}
+
+.circle-orange {
+    background-color: #ee964b;
+    color: #ffff;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 380px;
+    top: 269px;
+    font-size: 2em;
+}
+
+.circle-more-orange {
+    background-color: #f95738;
+    color: #ffff;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 329px;
+    top: 513px;
+    font-size: 1.5em;
+}
+
+.circle-yellow {
+    background-color: #f4d35e;
+    color: #ffff;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 253px;
+    top: 657px;
+    font-size: 1.2em;
+}
+
+/* SKILLS CIRCLES STYLES */
+
+.skills-circle {
+    height: 4.5em;
+    width: 4.5em;
+    border-radius: 50%;
+    color: #ffff;
+    font-size: .7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.html {
+    background-color: #EA4533;
+}
+.css {
+    background-color: #3096F3;
+}
+
+.pug {
+    background-color: #A86454;
+}
+
+.js {
+    background-color: #E4BA42 ;
+}
+
+.react {
+    background-color: #62DAFB;
+}
+
+.nodejs {
+    background-color: #689F63;
+    text-align: center;
+}
+
+.mongodb {
+    background-color: #57AB54;
+    text-align: center;
+}
+
+.xd {
+    background-color: #E55DF5;
+    text-align: center;
+}
+
+/* FOOTER SECTIONS */
+
+.footer {
+    width: 100%;
+    background-color: #F7F7E7;
+    margin-top: 3em;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: space-between;
+    height: 5em;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.designedby-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.toparrow {
+    cursor: pointer;
+}
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25%;
+}
+
+.someicons {
+    height: 3em;
+    width: 3em;
+    cursor: pointer;
+}
+
+/* Mobile section */
+
+/* @media only screen and (min-width: 1850px) {
+    body {
+        padding: 0em 20em 0em 20em;
+    }
+  } */
